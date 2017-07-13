@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		53ECEE221F17A7B5006A6597 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53ECEE211F17A7B5006A6597 /* AppDelegate.swift */; };
+		53ECEE241F17A7B5006A6597 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53ECEE231F17A7B5006A6597 /* ViewController.swift */; };
+		53ECEE271F17A7B5006A6597 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53ECEE251F17A7B5006A6597 /* Main.storyboard */; };
+		53ECEE291F17A7B5006A6597 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53ECEE281F17A7B5006A6597 /* Assets.xcassets */; };
+		53ECEE2C1F17A7B5006A6597 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53ECEE2A1F17A7B5006A6597 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		53ECEE1E1F17A7B5006A6597 /* Unaji.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Unaji.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		53ECEE211F17A7B5006A6597 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		53ECEE231F17A7B5006A6597 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		53ECEE261F17A7B5006A6597 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		53ECEE281F17A7B5006A6597 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		53ECEE2B1F17A7B5006A6597 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		53ECEE2D1F17A7B5006A6597 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53ECEE1B1F17A7B5006A6597 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53ECEE151F17A7B5006A6597 = {
+			isa = PBXGroup;
+			children = (
+				53ECEE201F17A7B5006A6597 /* Unaji */,
+				53ECEE1F1F17A7B5006A6597 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		53ECEE1F1F17A7B5006A6597 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53ECEE1E1F17A7B5006A6597 /* Unaji.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53ECEE201F17A7B5006A6597 /* Unaji */ = {
+			isa = PBXGroup;
+			children = (
+				53ECEE211F17A7B5006A6597 /* AppDelegate.swift */,
+				53ECEE231F17A7B5006A6597 /* ViewController.swift */,
+				53ECEE251F17A7B5006A6597 /* Main.storyboard */,
+				53ECEE281F17A7B5006A6597 /* Assets.xcassets */,
+				53ECEE2A1F17A7B5006A6597 /* LaunchScreen.storyboard */,
+				53ECEE2D1F17A7B5006A6597 /* Info.plist */,
+			);
+			path = Unaji;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		53ECEE1D1F17A7B5006A6597 /* Unaji */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53ECEE301F17A7B5006A6597 /* Build configuration list for PBXNativeTarget "Unaji" */;
+			buildPhases = (
+				53ECEE1A1F17A7B5006A6597 /* Sources */,
+				53ECEE1B1F17A7B5006A6597 /* Frameworks */,
+				53ECEE1C1F17A7B5006A6597 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Unaji;
+			productName = Unaji;
+			productReference = 53ECEE1E1F17A7B5006A6597 /* Unaji.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53ECEE161F17A7B5006A6597 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Troy Copeland";
+				TargetAttributes = {
+					53ECEE1D1F17A7B5006A6597 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 5FTURBFUC3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 53ECEE191F17A7B5006A6597 /* Build configuration list for PBXProject "Unaji" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 53ECEE151F17A7B5006A6597;
+			productRefGroup = 53ECEE1F1F17A7B5006A6597 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53ECEE1D1F17A7B5006A6597 /* Unaji */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53ECEE1C1F17A7B5006A6597 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53ECEE2C1F17A7B5006A6597 /* LaunchScreen.storyboard in Resources */,
+				53ECEE291F17A7B5006A6597 /* Assets.xcassets in Resources */,
+				53ECEE271F17A7B5006A6597 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53ECEE1A1F17A7B5006A6597 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53ECEE241F17A7B5006A6597 /* ViewController.swift in Sources */,
+				53ECEE221F17A7B5006A6597 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		53ECEE251F17A7B5006A6597 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53ECEE261F17A7B5006A6597 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		53ECEE2A1F17A7B5006A6597 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53ECEE2B1F17A7B5006A6597 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		53ECEE2E1F17A7B5006A6597 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		53ECEE2F1F17A7B5006A6597 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		53ECEE311F17A7B5006A6597 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5FTURBFUC3;
+				INFOPLIST_FILE = Unaji/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TC.Unaji;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		53ECEE321F17A7B5006A6597 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5FTURBFUC3;
+				INFOPLIST_FILE = Unaji/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TC.Unaji;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53ECEE191F17A7B5006A6597 /* Build configuration list for PBXProject "Unaji" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53ECEE2E1F17A7B5006A6597 /* Debug */,
+				53ECEE2F1F17A7B5006A6597 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53ECEE301F17A7B5006A6597 /* Build configuration list for PBXNativeTarget "Unaji" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53ECEE311F17A7B5006A6597 /* Debug */,
+				53ECEE321F17A7B5006A6597 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 53ECEE161F17A7B5006A6597 /* Project object */;
+}
