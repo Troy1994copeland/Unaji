@@ -7,19 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		53BBAF1E1F2633B300B793D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53BBAF1D1F2633B300B793D4 /* Assets.xcassets */; };
+		53BBAF201F26348400B793D4 /* InterestsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53BBAF1F1F26348400B793D4 /* InterestsViewController.swift */; };
+		53BBAF221F26348F00B793D4 /* Interest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53BBAF211F26348F00B793D4 /* Interest.swift */; };
+		53BBAF241F26349800B793D4 /* InterestCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53BBAF231F26349800B793D4 /* InterestCollectionViewCell.swift */; };
 		53ECEE221F17A7B5006A6597 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53ECEE211F17A7B5006A6597 /* AppDelegate.swift */; };
-		53ECEE241F17A7B5006A6597 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53ECEE231F17A7B5006A6597 /* ViewController.swift */; };
 		53ECEE271F17A7B5006A6597 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53ECEE251F17A7B5006A6597 /* Main.storyboard */; };
-		53ECEE291F17A7B5006A6597 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53ECEE281F17A7B5006A6597 /* Assets.xcassets */; };
 		53ECEE2C1F17A7B5006A6597 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53ECEE2A1F17A7B5006A6597 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		53BBAF1D1F2633B300B793D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		53BBAF1F1F26348400B793D4 /* InterestsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterestsViewController.swift; sourceTree = "<group>"; };
+		53BBAF211F26348F00B793D4 /* Interest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Interest.swift; sourceTree = "<group>"; };
+		53BBAF231F26349800B793D4 /* InterestCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterestCollectionViewCell.swift; sourceTree = "<group>"; };
 		53ECEE1E1F17A7B5006A6597 /* Unaji.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Unaji.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53ECEE211F17A7B5006A6597 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		53ECEE231F17A7B5006A6597 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		53ECEE261F17A7B5006A6597 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		53ECEE281F17A7B5006A6597 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		53ECEE2B1F17A7B5006A6597 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		53ECEE2D1F17A7B5006A6597 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -35,6 +39,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5376B1A21F2F3DAB00966E5D /* VIew */ = {
+			isa = PBXGroup;
+			children = (
+				53BBAF231F26349800B793D4 /* InterestCollectionViewCell.swift */,
+			);
+			name = VIew;
+			sourceTree = "<group>";
+		};
+		53BBAF1A1F262CB800B793D4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				53BBAF211F26348F00B793D4 /* Interest.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		53BBAF1C1F262D0700B793D4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				53BBAF1F1F26348400B793D4 /* InterestsViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
 		53ECEE151F17A7B5006A6597 = {
 			isa = PBXGroup;
 			children = (
@@ -54,10 +82,12 @@
 		53ECEE201F17A7B5006A6597 /* Unaji */ = {
 			isa = PBXGroup;
 			children = (
-				53ECEE211F17A7B5006A6597 /* AppDelegate.swift */,
-				53ECEE231F17A7B5006A6597 /* ViewController.swift */,
+				53BBAF1A1F262CB800B793D4 /* Model */,
+				5376B1A21F2F3DAB00966E5D /* VIew */,
+				53BBAF1C1F262D0700B793D4 /* Controller */,
 				53ECEE251F17A7B5006A6597 /* Main.storyboard */,
-				53ECEE281F17A7B5006A6597 /* Assets.xcassets */,
+				53ECEE211F17A7B5006A6597 /* AppDelegate.swift */,
+				53BBAF1D1F2633B300B793D4 /* Assets.xcassets */,
 				53ECEE2A1F17A7B5006A6597 /* LaunchScreen.storyboard */,
 				53ECEE2D1F17A7B5006A6597 /* Info.plist */,
 			);
@@ -125,8 +155,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				53ECEE2C1F17A7B5006A6597 /* LaunchScreen.storyboard in Resources */,
-				53ECEE291F17A7B5006A6597 /* Assets.xcassets in Resources */,
 				53ECEE271F17A7B5006A6597 /* Main.storyboard in Resources */,
+				53BBAF1E1F2633B300B793D4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +167,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53ECEE241F17A7B5006A6597 /* ViewController.swift in Sources */,
+				53BBAF241F26349800B793D4 /* InterestCollectionViewCell.swift in Sources */,
+				53BBAF201F26348400B793D4 /* InterestsViewController.swift in Sources */,
 				53ECEE221F17A7B5006A6597 /* AppDelegate.swift in Sources */,
+				53BBAF221F26348F00B793D4 /* Interest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +296,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5FTURBFUC3;
+				ENABLE_ON_DEMAND_RESOURCES = NO;
 				INFOPLIST_FILE = Unaji/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.TC.Unaji;
@@ -277,6 +310,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5FTURBFUC3;
+				ENABLE_ON_DEMAND_RESOURCES = NO;
 				INFOPLIST_FILE = Unaji/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.TC.Unaji;
@@ -304,6 +338,7 @@
 				53ECEE321F17A7B5006A6597 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
