@@ -15,6 +15,10 @@ class InterestsViewController: UIViewController
     var interests = Interest.fetchInterests()
     let cellScaling: CGFloat = 0.6
     
+    var interestCell = [0,1,2,3,4,5,6,7]
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -52,6 +56,77 @@ extension InterestsViewController : UICollectionViewDataSource
         
         return cell
     }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath){
+        
+        
+            if interestCell[0] == indexPath.row {
+        
+            print("segue from cell row \(indexPath.item)")
+            
+            performSegue(withIdentifier: "FeatureVC0", sender: interests[0])
+                
+        }
+        
+        
+        if interestCell[1] == indexPath.row {
+            
+            print("segue from cell row \(indexPath.item)")
+        
+            performSegue(withIdentifier: "FeatureVC1", sender: interests[1])
+            
+        }
+        
+        if interestCell[2] == indexPath.row {
+            
+            print("segue from cell row \(indexPath.item)")
+            
+            performSegue(withIdentifier: "FeatureVC2", sender: interests[2])
+            
+        }
+        
+        if interestCell[3] == indexPath.row {
+            
+            print("segue from cell row \(indexPath.item)")
+            
+            performSegue(withIdentifier: "FeatureVC3", sender: interests[3])
+            
+        }
+
+        if interestCell[4] == indexPath.row {
+            
+            print("segue from cell row \(indexPath.item)")
+            
+            performSegue(withIdentifier: "FeatureVC4", sender: interests[4])
+            
+        }
+        
+        if interestCell[5] == indexPath.row {
+            
+            print("segue from cell row \(indexPath.item)")
+            
+            performSegue(withIdentifier: "FeatureVC5", sender: interests[5])
+            
+        }
+        
+        if interestCell[6] == indexPath.row {
+            
+            print("segue from cell row \(indexPath.item)")
+            
+            performSegue(withIdentifier: "FeatureVC6", sender: interests[6])
+            
+        }
+        
+        if interestCell[7] == indexPath.row {
+            
+            print("segue from cell row \(indexPath.item)")
+            
+            performSegue(withIdentifier: "FeatureVC7", sender: interests[7])
+            
+        }
+
+    }
+    
 }
 
 extension InterestsViewController : UIScrollViewDelegate, UICollectionViewDelegate

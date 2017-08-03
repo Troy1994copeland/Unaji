@@ -46,24 +46,3 @@ class InterestCollectionViewCell: UICollectionViewCell
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
